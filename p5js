@@ -1,0 +1,64 @@
+      function setup() {
+        createCanvas(400,400);
+      }
+      
+    function setup() {
+  createCanvas(500, 500);
+    //background
+  background(255,150,200);
+  
+}
+
+function draw() {
+    text("*", mouseX-100, mouseY-100)
+  noStroke()
+  strokeWeight(0)
+  ellipse(mouseX, mouseY,120,120)
+  
+  //ellipse
+  
+  fill(mouseX/2, mouseY/2, mouseX+mouseY);
+  stroke(0)
+strokeWeight(0)
+
+    text("*", mouseX-100, mouseY-100)
+    ellipse(mouseX, mouseY,120,120)
+  ellipse(mouseX, mouseY,120,120);
+  ellipse(mouseX, mouseY, 20,220)
+  rect(mouseX,mouseY,100,100);
+
+    text("*", mouseX-100, mouseY-100)
+ ellipse(ellipse(mouseX,mouseY,mouseX,mouseY));
+  rect(mouseX,mouseY,mouseX,mouseY);
+  ellipse(width/2,height/2,mouseX,mouseY);
+  ellipse(width-mouseX,height-mouseY,100,100);
+  ellipse(mouseY,mouseX,120,120);
+  rect(mouseX,mouseY,140,140);
+  text("*", mouseX-100, mouseY-100)
+
+
+  
+}
+
+function mousePressed() {
+background(255, 150, 200); 
+  
+}
+
+function keyPressed (){
+
+        
+      }
+    </script>
+</head>
+
+<body>
+    <div id="code" class="container-fluid">
+        <script src="https://gist-it.appspot.com/github/DeniaCasimiro/p5js/blob/master/04-interaction-project.html?footer=0"></script>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script>
+        $(window).bind("load", function() {
+            $('#code').before($('#defaultCanvas0').remove());
+        });
